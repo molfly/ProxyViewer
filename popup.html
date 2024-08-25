@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .proxy-info {
+            margin-bottom: 10px;
+        }
+        .proxy-info strong {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Proxy Settings</h2>
+    <div class="proxy-info">
+        <strong>HTTP Proxy IP:</strong> <span id="httpProxyIP">Loading...</span><br>
+        <strong>HTTP Proxy Port:</strong> <span id="httpProxyPort">Loading...</span>
+    </div>
+    <div class="proxy-info">
+        <strong>HTTPS Proxy IP:</strong> <span id="httpsProxyIP">Loading...</span><br>
+        <strong>HTTPS Proxy Port:</strong> <span id="httpsProxyPort">Loading...</span>
+    </div>
+    <div class="proxy-info">
+        <strong>SOCKS Proxy IP:</strong> <span id="socksProxyIP">Loading...</span><br>
+        <strong>SOCKS Proxy Port:</strong> <span id="socksProxyPort">Loading...</span>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
