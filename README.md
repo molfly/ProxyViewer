@@ -1,5 +1,8 @@
 # Proxy Settings Display
 
+![pop up](001804.png "Proxy Settings")
+
+
 ### Version: 0.1.0
 ### Author: Andrey Molfly
 
